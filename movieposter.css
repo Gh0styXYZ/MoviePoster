@@ -1,0 +1,144 @@
+:root {
+  --background-color: #0f0f0f;
+  --text-color: #ffffff;
+  --header-background: #1c1c1c;
+  --button-background: #333333;
+  --button-hover-background: #555555;
+  --accent-color: #ff9800;
+}
+
+
+
+
+body {
+  background-color: #0f0f0f;
+}
+
+
+body.postersBody
+body.postersBody{
+  display:flex;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.title {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #fff; 
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+h1.header {
+  text-align: center;
+  color: #ffffff;
+  background-color: #1c1c1c;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+  margin-bottom: 40px;
+  box-shadow:0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color: #0f0f0f;
+  margin: 0;
+}
+
+.posters-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img.poster {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 550px;
+  height: 810px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+img.poster:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.8);
+}
+
+div.poster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+h1.footer {
+  text-align: center;
+  color: #ffffff;
+  background-color: #1c1c1c;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+  box-shadow:0 -2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1c1c1c;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+  box-shadow:0 -2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+h1.button {
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  font-family: Arial, sans-serif;
+}
+
+.poster-row {
+  display: flex;
+  align-items: center;
+  gap: 24px; 
+}
+.maintitle {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.subtitle {
+  color: #ff9800;
+  font-size: 25px;
+  margin-left: 12px;
+  font-family: Arial, sans-serif;
+}
+p {
+  color: #dddddd;
+  font-size: 1em;
+  line-height: 1.5;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
