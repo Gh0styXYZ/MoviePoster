@@ -11,7 +11,7 @@
 
 
 body {
-  background-color: #0f0f0f;
+  background-color:var(--background-color)
 }
 
 
@@ -19,7 +19,7 @@ body.postersBody
 body.postersBody{
   display:flex;
   text-align: center;
-  color: #ffffff;
+  color: var(--text-color);
   padding: 20px;
 }
 
@@ -27,7 +27,7 @@ body.postersBody{
   margin-top: 12px;
   margin-bottom: 20px;
   font-size: 25px;
-  color: #fff; 
+  color: var(--text-color) ;
   text-align: center;
   font-family: Arial, sans-serif;
 }
@@ -36,6 +36,7 @@ h1.header {
   color: #ffffff;
   background-color: #1c1c1c;
   padding: 30px 0;
+  position: relative;
   font-family: Arial, sans-serif;
   margin-bottom: 40px;
   box-shadow:0 2px 4px rgba(0, 0, 0, 0.5);
@@ -141,4 +142,14 @@ p {
   line-height: 1.5;
   max-width: 600px;
   font-family: Arial, sans-serif;
+}
+
+img.return{
+  width:50px;
+  height:50px;
+  cursor:pointer;
+  position: absolute; 
+  top: 20px;
+  left: 15px;
+  object-fit: contain;
 }
